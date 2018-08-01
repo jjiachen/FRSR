@@ -57,7 +57,7 @@ mean_t=df_scalar["Mean"]
 stdev_t=df_scalar["Stdev"]
 num_df_sites=len(indexs)
 num_row_near=df_sites["num_row_near"]
-Event_spec,Latitude,Longitude,Date,num_date,Dep,Min_t,Max_t,Mean_t,Stdev_t,Index_first=[],[],[],[],[],[],[],[],[],[],[],[]
+Event_spec,Latitude,Longitude,Date,num_date,Dep,Min_t,Max_t,Mean_t,Stdev_t,Index_first=[],[],[],[],[],[],[],[],[],[],[]
 for i in index_site:
      Event_spec.append(event_spec[i])
      Latitude.append(lat[i])
